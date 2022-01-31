@@ -6,13 +6,13 @@
 }
 
 
-/* mavbar-section */
+/* navbar-section */
 
 .navbar{
     min-height: 3rem;
     width: 100%;
     padding-bottom: 1.3rem;
-    box-shadow: 0px 1px #3f3947;
+    box-shadow: 0px 1px var(--secondary-color);
 
 }
 
@@ -91,8 +91,8 @@
 }
 
 .btn:hover{
-        background-color: var(--secondary-color);
-         cursor: pointer;
+    background-color: var(--secondary-color);
+    cursor: pointer;
 }
 
 
@@ -149,7 +149,7 @@
 }
 
 .component-info {
-margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 
@@ -162,7 +162,7 @@ margin-top: 1rem;
 	width: 100%;
 	padding: 1.5rem;
     text-align: center;
-	color: white;
+	color: var(--light-bg-color);
 	font-size: 1.5rem;
 }
 
