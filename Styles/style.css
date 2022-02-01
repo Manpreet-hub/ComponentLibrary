@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 :root{
-    --primary-color: #6D0CC9;
-    --secondary-color:#3f3947;
+    --page-primary-color: #6D0CC9;
+    --page-secondary-color:#3f3947;
     --light-bg-color:#fcfcfc;
 }
 
@@ -12,7 +12,7 @@
     min-height: 3rem;
     width: 100%;
     padding-bottom: 1.3rem;
-    box-shadow: 0px 1px var(--secondary-color);
+    box-shadow: 0px 1px var(--page-secondary-color);
 
 }
 
@@ -20,7 +20,7 @@
     position: relative;
     top: .5rem;
     font-size: 1.6rem;
-    color: var(--primary-color);
+    color: var(--page-primary-color);
 }
 
 .brandname{
@@ -41,12 +41,12 @@
 .nav-icon a{
     font-size: 1rem;
     padding-left:1.6rem;
-    color: var(--primary-color);
+    color: var(--page-primary-color);
     font-weight: 500;
 }
 
 .nav-icon :hover{
-    color: var(--secondary-color);
+    color: var(--page-secondary-color);
 }
 
 
@@ -84,14 +84,14 @@
     margin-top: 2rem;
     font-size: 1.4rem;
     padding: .7rem;
-    background-color: var(--primary-color);
+    background-color: var(--page-primary-color);
     color: white;
     border-radius: .6rem;
     margin-left: 1rem;
 }
 
 .btn:hover{
-    background-color: var(--secondary-color);
+    background-color: var(--page-secondary-color);
     cursor: pointer;
 }
 
@@ -114,7 +114,7 @@
     font-weight: 600;
     margin-left: 1rem;
     margin-bottom: 1rem;
-    color: var(--secondary-color);
+    color: var(--page-secondary-color);
    
 }
 
@@ -122,30 +122,28 @@
 
 .component-section{
     width: 100%;  
-    border-right: .01rem solid ;
 }
 
 .component-links>a{
     display: block;
     text-decoration: none;
     padding: 0.2em 0.5em;
-    color: var(--secondary-color);
+    color: var(--page-secondary-color);
     width: 100%;
     font-size: 1.1rem;
-    padding-bottom: 1rem;
+    padding: .6rem;
     font-weight: 500;
     padding-left: 2rem;
-
 }
 
 .component-links :hover{
     background-color: #ebdafc;
 }
 
-.component{
+.comp-disp{
     max-width: 60%;
     margin-left: 25rem;
-    margin-top: 3em;
+    margin-top: 2rem;
 }
 
 .component-info {
@@ -157,7 +155,7 @@
 
 .footer{
     min-height: 7rem;
-    background-color: var(--secondary-color);
+    background-color: var(--page-secondary-color);
 	min-height: 2rem;
 	width: 100%;
 	padding: 1.5rem;
