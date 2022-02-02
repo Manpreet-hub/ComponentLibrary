@@ -19,13 +19,17 @@ li{
 
 
 .txt-header-1{
-    color: var(--primary-font-color);
     font-size: 3rem;
     font-weight: 600;
 }
+.txt-header-2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem 0 1rem 0;  
+}
 
 .txt-desc{
-    color: var(--primary-font-color);
+    color: var(--page-secondary-color);
     font-weight: 400;
     font-size: 1.3rem;
 }
