@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="stylesheet" href="/Styles/codeDisplay.css">
     <link rel="stylesheet" href="/Styles/utility.css">
     <link rel="stylesheet" href="/Components/component.css">
     <title>Docs</title>
@@ -37,7 +38,7 @@
             <ul class="component-section">
                 <li class="component-links btn-link "><a href="#sec-alert">Alerts</a></li>
                 <li class="component-links btn-link "><a href="#sec-avatar">Avatar</a></li>
-                <li class="component-links btn-link "><a href="#">Badge</a></li>
+                <li class="component-links btn-link "><a href="#sec-badge">Badge</a></li>
                 <li class="component-links btn-link "><a href="#">Button</a></li>
                 <li class="component-links btn-link "><a href="#">Card</a></li>
                 <li class="component-links btn-link "><a href="#">Image</a></li>
@@ -59,7 +60,7 @@
         </div>
 
         <!-- Alert -->
-        <div class="comp-disp " id="sec-alert">
+        <div class="comp-disp" id="sec-alert">
             <h2 class="txt-header-1">Alert</h2>
             <p class="component-info txt-desc">Alerts are used to attract user's attention for important information without
                  interrupting the user's flow. The alert component has four variants:-</p>
@@ -98,7 +99,7 @@
             </iframe>
             </div>
                <!-- Text -->
-                <h2 class="txt-header-2">Example of Text Avatar :
+                <h2 class="txt-header-2">Example of Text Avatar : </h2>
                 <span class="avatar-txt avatar-txt-lg avatar-lg ">MS</span>
                 <span class="avatar-txt avatar-txt-md avatar-md ">MS</span>
                 <span class="avatar-txt avatar-txt-sm avatar-sm ">MS</span>
@@ -109,6 +110,58 @@
 </iframe></div>
         </div>
 
+        <!-- Badges -->
+        <div class="comp-disp" id="sec-badge">
+            <h2 class="txt-header-1">Badges</h2>
+            <p class="component-info txt-desc">Badges are used to highlight the additional information to the content.
+            </p>
+            <h2 class="txt-header-2">Badge on Avatar</h2>
+
+                 <div class="flex-container">
+                    <div class="badge-container">
+                        <img loading="lazy" class="avatar-md" src="/Components/badge/avatar1.jpeg" alt="avatar">
+                        <span class="status-badge status-badge-online"></span>
+                        <img loading="lazy" class="avatar-md" src="/Components/badge/avatar1.jpeg" alt="avatar">
+                        <span class="status-badge status-badge-offline"></span>
+                    </div>
+                      </div>
+                          <div class="code-snippet-display">    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%253Cimg%2520%2520class%253D%2522avatar-md%2522%2520src%253D%2522img%2520location%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cspan%2520class%253D%2522status-badge%2520status-badge-online%2522%253E%253C%252Fspan%253E%250A%250A%253Cimg%2520%2520class%253D%2522avatar-md%2522%2520src%253D%2522img%2520location%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cspan%2520class%253D%2522status-badge%2520status-badge-offline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+  style="width: 643px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+         </iframe></div>
+            <!-- Text Badges -->
+                <h3 class="txt-header-2">Text Badges</h3>
+                 <div class="txt-header-2 badge-container">
+                    <p>Text with a badge</p>
+                    <span class="badge-icon badge-dark-color">4</span>
+                 </div>
+                   <div class="txt-header-2 badge-container">
+                    <p>Text with a badge</p>
+                    <span class="badge-icon badge-light-color">8</span>
+                   </div>
+
+     <div class="code-snippet-display"><iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EText%2520with%2520a%2520badge%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon%2520badge-dark-color%2522%253E4%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EText%2520with%2520a%2520badge%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon%2520badge-light-color%2522%253E8%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="width: 670px; height: 335px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>  </div>
+                    <!-- Badges on Icon -->
+                   <h3 class="txt-header-2">Badge on Icon</h3>
+                   <div class="txt-header-2 badge-container">
+                   <p><i class="far fa-bell"></i></p>
+                <span class="badge-icon badge-dark-color">5</span>
+                </div> 
+    <div class="code-snippet-display"><iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%253Cp%253E%253Ci%2520class%253D%2522far%2520fa-bell%2522%253E%253C%252Fi%253E%253C%252Fp%253E%250A%2520%253Cspan%2520class%253D%2522badge-icon%2520badge-dark-color%2522%253E5%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%2520"
+                style="width: 598px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+</div>
+        </div>
+
+
+               
         
 
 <script src="docsite.js"></script>
