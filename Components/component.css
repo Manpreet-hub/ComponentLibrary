@@ -1,7 +1,7 @@
 @import url(alert/alert.css);
 @import url(avatar/avatar.css);
 @import url(badge/badge.css);
-
+@import url(button/button.css);
 
 :root {
     --primary-color: #ff3b30;
