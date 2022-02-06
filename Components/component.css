@@ -2,6 +2,7 @@
 @import url(avatar/avatar.css);
 @import url(badge/badge.css);
 @import url(button/button.css);
+@import url(cards/cards.css);
 
 :root {
     --primary-color: #ff3b30;
