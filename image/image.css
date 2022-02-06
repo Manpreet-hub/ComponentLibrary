@@ -1,0 +1,13 @@
+.img {
+    max-width: 34rem;
+    min-width: 14rem;
+  }
+
+.responsive-img{
+    width: 100%;
+    height: auto;
+}
+
+.img-round{
+    border-radius: 50%;
+}
