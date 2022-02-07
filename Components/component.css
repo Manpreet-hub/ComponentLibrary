@@ -5,6 +5,7 @@
 @import url(cards/cards.css);
 @import url(image/image.css);
 @import url(input/input.css);
+@import url(list/list.css);
 
 :root {
     --primary-color: #ff3b30;
