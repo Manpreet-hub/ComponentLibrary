@@ -1,0 +1,39 @@
+.input{
+    padding: .8rem;
+    border: transparent;
+    width: max-content;
+    min-width: 8rem;
+    background-color: var(--lynx-grey-color);
+    border: 5px solid transparent;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 1rem;
+    border-bottom: 2px solid;
+}
+
+.input:out-of-range {
+    border: 2px solid var(--failed-color);
+}
+
+.input:in-range {
+    border: 2px solid var(--voilet-color);
+}
+
+.input:focus {
+    outline: none;
+}
+
+.txt-area{
+    width: 100%;
+    max-width: 30rem;
+    height: 7rem;
+}
+
+.input-success{
+    border-bottom: 2px solid var(--success-color);
+}
+
+.input-error{
+    border-bottom: 2px solid var(--failed-color);
+}
+
