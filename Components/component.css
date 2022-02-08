@@ -6,6 +6,7 @@
 @import url(image/image.css);
 @import url(input/input.css);
 @import url(list/list.css);
+@import url(navigation/navigation.css);
 
 :root {
     --primary-color: #ff3b30;
