@@ -144,6 +144,8 @@
     max-width: 60%;
     margin-left: 25rem;
     margin-top: 2rem;
+    position: relative;
+    padding: 1rem;
 }
 
 .component-info {

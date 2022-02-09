@@ -1,0 +1,22 @@
+.modal-container{
+    display: none;
+    width: 100%;
+    padding-top: 3rem;
+    z-index: 1;
+    overflow: auto;
+    box-sizing: border-box;
+    background-color: var(--grey-color); 
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+.modal-desc
+{
+   padding: 1rem;
+}
+
+.modal-title,.modal-para{
+    color: var(--black-color);
+}
+

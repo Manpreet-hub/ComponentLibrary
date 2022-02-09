@@ -8,6 +8,7 @@
 @import url(list/list.css);
 @import url(navigation/navigation.css);
 @import url(Text/textutility.css);
+@import url(Modal/modal.css);
 
 :root {
     --primary-color: #ff3b30;
