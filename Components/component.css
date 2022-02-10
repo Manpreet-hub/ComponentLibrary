@@ -9,6 +9,7 @@
 @import url(navigation/navigation.css);
 @import url(Text/textutility.css);
 @import url(Modal/modal.css);
+@import url(rating/rating.css);
 
 :root {
     --primary-color: #ff3b30;

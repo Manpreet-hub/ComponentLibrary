@@ -1,0 +1,11 @@
+.checked-rating,.rating{
+    color: #ffb400;
+}
+
+.checked-rating,.rating,.unchecked-rating{
+    cursor: pointer;
+}
+
+.unchecked-rating{
+    color: rgba(0, 0, 0, 0.26);
+}
