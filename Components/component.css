@@ -11,6 +11,7 @@
 @import url(Modal/modal.css);
 @import url(rating/rating.css);
 @import url(Toast/toast.css);
+@import url(grid/grid.css);
 
 :root {
     --primary-color: #ff3b30;

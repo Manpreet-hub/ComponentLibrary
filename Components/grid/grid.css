@@ -1,0 +1,24 @@
+.two-item-grid,.three-item-grid{
+    display: grid;
+    grid-gap: .7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-item-grid{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.three-item-grid{
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid-item{
+    background-color: var(--voilet-color);
+}
+
+@media screen and (max-width:580px){
+    .two-item-grid,.three-item-grid{
+        grid-template-columns: 1fr;
+    } 
+}
