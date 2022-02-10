@@ -46,6 +46,8 @@
                 <li class="component-links btn-link "><a href="#sec-text">Text Utilities</a></li>              
                 <li class="component-links btn-link "><a href="#sec-modal">Modal</a></li>
                 <li class="component-links btn-link "><a href="#sec-rating">Rating</a></li>
+                <li class="component-links btn-link "><a href="#sec-toast">Toast</a></li>
+
 
             </ul>
         </div>
@@ -553,7 +555,29 @@
 
       </div> 
 
-
+      <div class="comp-disp" id="sec-toast">
+        <h2 class="txt-header-1">Toast</h2> 
+        <p class="component-info txt-desc">
+      The toast component is like an alert box that is only shown for a couple of seconds when 
+      something happens (i.e. when the user clicks on a button, submits a form, etc.)</p>
+          <div class="flex-container">
+            <div class="toast-container toast-failure">
+              <h4 class="toast ">Not Saved! Try again later. </h4>
+               <button  class="cross-toast btn-primary">X</button>
+           </div>
+         
+          <div class="toast-container toast-success">
+           <h4 class="toast">Saved!</h4>
+            <button  class="cross-toast btn-primary">X</button>
+        </div>
+          </div>
+          <div class="code-snippet-display">       <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-container%2520toast-failure%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522toast%2520%2522%253ENot%2520Saved%21%2520Try%2520again%2520later.%2520%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%2520class%253D%2522cross-toast%2520btn-primary%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-container%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522toast%2522%253ESaved%21%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%2520class%253D%2522cross-toast%2520btn-primary%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+          style="border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>  </div>
+      </div>
+    
 
   <script src="/Components/Modal/modal.js"></script>  
 <script src="docsite.js"></script>

@@ -1,0 +1,32 @@
+.toast-container{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .6rem;
+    gap: 1rem;
+    margin: 1rem 0;
+    border-radius: .6rem;
+}
+
+.toast {
+    color: var(--white-color);
+}
+
+.cross-toast{
+    height: 1rem;
+    width: 1rem;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.toast-success{
+    background-color: var(--success-color);
+}
+
+.toast-failure{
+    background-color: var(--failed-color);
+}
