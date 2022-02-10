@@ -10,6 +10,7 @@
 @import url(Text/textutility.css);
 @import url(Modal/modal.css);
 @import url(rating/rating.css);
+@import url(Toast/toast.css);
 
 :root {
     --primary-color: #ff3b30;
